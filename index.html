@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=	, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/f3e9323fe4.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo1.png" class="logo" alt="">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello, my name is,</p>
+                <h1><span>Thomas Mutavi. <br> </span> I <span><i class="fa-solid fa-heart"></i></span> bulding things for the web</h1>
+                <p class="desc">I’m a Front-End web developer fron Nairobi Kenya.<br>  Currently I'm focused in building
+                    exceptional UI / UX designs <br>  with great user experience. 
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- /*About Section */ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-column-1">
+                    <img src="images/26858323.jpg" alt="">
+                </div>
+                <div class="about-column-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        Hello, My name is Thomas From Kenya.I love designing and creaing <br>
+                        great designs. I'm passionate about building user friendly designs. <br>
+                        Some of the programming languages and tools i use include : JavaScript, <br>
+                        Html, Css, Figma and Wordpress. I also have have some experience working  <br>
+                        with languages and frameworks like PHP and Django framework.
+
+                        </p>
+                            <div class="tab-titles ">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web Apps Interfaces</li>
+                                    <li><span>Web Development</span><br> Web Apps Development</li>
+                                    <li><span>WordPress </span><br>Building Wordpress Websites</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2020-Present</span><br>  Freelance Front-End Web Developer</li>
+                                    <li><span>2020-2022</span><br> Digitization Officer -> (Joint National Resource Mapping - Jnam)</li>
+                                    <li><span>2017</span><br>ICT Intern -> (Anti-Counterfeit Agency)</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2014-2019</span><br>Moi University (Bsc Computer Science)</li>
+                                    <li><span>2018 - 2018</span><br>IIHT Nairobi (IT Administration)</li>
+                                    <li><span>2010-2013</span><br>Mukaa School (KCSE)</li>
+                                </ul>
+                            </div>
+                           </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- secvices section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Doloremque 
+                        id quibusdam consectetur quod expedita culpa
+                         magni ad dicta sapiente saepe!
+                        </p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>Web Apps Design</h2>
+                    <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Doloremque 
+                        id quibusdam consectetur quod expedita culpa
+                         magni ad dicta sapiente saepe!
+                        </p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Doloremque 
+                        id quibusdam consectetur quod expedita culpa
+                         magni ad dicta sapiente saepe!
+                        </p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Work Section / Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Recent Works</h1>
+            <div class="work-list">
+                <div class="works">
+                    <img src="img/projects/kibadaski.png" alt="">
+                    <div class="loyout">
+                       <h3> Cafe Application</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                       <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="works">
+                    <img src="img/projects/homes.png" alt="">
+                    <div class="loyout">
+                        <h3> Cafe Application</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                     </div>
+                </div>
+                <div class="works">
+                    <img src="img/projects/kibadaski.png" alt="">
+                    <div class="loyout">
+                        <h3> Residential App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                     </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- contact  -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>mathiasthomas17@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>  +254719743717</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/mathiasthomas"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/thomas-mutavi-0364b4133/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="img/thomas_cv.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="EnterYour Name" required>
+                        <input type="email" name="Email" placeholder="Enter Your Email" required>
+                        <textarea name="Message"  rows="10" placeholder="Enter Your Message"></textarea>
+                        <button type="submit" class="btn btn-2 btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="copyright">
+        <p>Copyright @ Thomas. <i class="fa-solid fa-heart"></i></p>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove('active-link');
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById('side-menu');
+        function openmenu(){
+            sidemenu.style.right='0';
+
+        }
+        function closemenu(){
+            sidemenu.style.right='-200px';
+
+        }
+        </script>
+        
+        <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzXmtzmwwyFitRAn6JGbUbE4qHSxHPidnQIjHzYlOZj5wLW9rlWGYp6nkiRdS-zCi6Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML = 'Message Sents Succesfully'
+        setTimeout(function(){
+            msg.innerHTML = ''
+        },5000)
+        form.reset
+        
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
